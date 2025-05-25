@@ -1,0 +1,16 @@
+body {
+    color: grey ; 
+    background-color: black;
+} 
+/* Aplicando un lineado para diferenciar los enunenciado y sus jerarquias*/
+h1 {
+    text-align:right;
+}
+
+p{ 
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
