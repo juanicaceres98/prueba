@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* 🟩 Barra superior verde */
+.top-bar {
+  background-color: #07893d;
+  color: white;
+  text-align: right;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* ⚪ Encabezado principal */
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 🔍 Buscador */
+.search-box {
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* 🟢 Logo */
+.logo {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 80px;
+}
+
+/* 🛒 Carrito */
+.cart {
+  display: flex;
+  align-items: center;
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+/* 🔽 Navegación */
+nav {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* 🟨 Cinta amarilla inferior */
+.promo-bar {
+  background-color: #e4ce00;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
